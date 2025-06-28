@@ -1,5 +1,3 @@
---import mysql.connector
-
 CREATE DATABASE IF NOT EXISTS alx_book_store;
 
 USE alx_book_store;
@@ -40,13 +38,3 @@ CREATE TABLE IF NOT EXISTS Order_Details (
     FOREIGN KEY (book_id) REFERENCES Books(book_id)
     quantity DOUBLE
 );
-
---mydb = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="Nzisa@1999pujo",
---)
-
- --mycursor = mydb.cursor()
- --mycursor.close()
- --mydb.close()
