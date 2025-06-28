@@ -12,7 +12,7 @@ try:
     mycursor = mydb.cursor()
     print("Database 'alx_book_store' created successfully!")
     
-except:
+except mysql.connector.Error:
     print("Error: Connection failed!")
 
 mycursor.close()
