@@ -1,4 +1,4 @@
-import mysql.connector
+--import mysql.connector
 
 CREATE DATABASE IF NOT EXISTS alx_book_store;
 
@@ -41,12 +41,12 @@ CREATE TABLE IF NOT EXISTS Order_Details (
     quantity DOUBLE
 );
 
-mydb = mysql.connector.connect(
+--mydb = mysql.connector.connect(
     host="localhost",
     user="root",
     password="Nzisa@1999pujo",
-)
+--)
 
- mycursor = mydb.cursor()
- mycursor.close()
- mydb.close()
+ --mycursor = mydb.cursor()
+ --mycursor.close()
+ --mydb.close()
