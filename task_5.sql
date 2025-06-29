@@ -1,4 +1,4 @@
-INSERT INTO Books (
+INSERT INTO Customer (
     customer_id, 
     customer_name, 
     email, 
